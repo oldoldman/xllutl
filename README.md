@@ -116,7 +116,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree) {
 __declspec(dllexport)
 int WINAPI xlAutoOpen() {
   auto xDll = xl12(xlGetName);
-  xlfRegisterEx("test","Q$","test","",1,"test","","",""," ");
+  xlfRegisterEx(&xDll,"test","Q$","test","",1,"test","","",""," ");
   return 1;  
 }
 }
