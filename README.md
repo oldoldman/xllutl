@@ -2,6 +2,7 @@
 A thin wrapper of Excel XLL SDK, provide following utilities
 1. CXLOPER12 class, it's the cpp extension of original SDK XLOPER12
 2. xl12 function, convenient to call XLL C API
+# pure SDK API vs xllutl
 as a comparison, following is an XLL created from pure SDK API
 ```c++
 #include "windows.h"
