@@ -157,7 +157,7 @@ struct CXLOPER12 : XLOPER12 {
   CXLOPER12& operator=(const volatile CXLOPER12&) = delete;
   
   CXLOPER12(CXLOPER12 &&op) {
-    myfree();
+    // myfree();
     move(op);
     alloc++;
   }
